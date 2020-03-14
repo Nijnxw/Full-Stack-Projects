@@ -1,0 +1,57 @@
+body {
+  border-style: dotted;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-dessert-baking-gourmet-diy-promotion-discount-poster-background-template-image_153382.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #E9CCB1;
+  padding: 50px;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+@supports (-webkit-text-stroke: 1px black) {
+  h1 {
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 50px;
+  -webkit-text-stroke: 2px White;
+  -webkit-text-fill-color: #654321;
+}
+}
+
+form {
+  background: linear-gradient(45deg,#CCFFFF,#FFCCCC);
+  position: center;
+  opacity: 0.8;
+  padding: 10px;
+}
+
+.buttonConfiguration {
+    width: 200px;
+    background-color: transparent; 
+    text-align: left-align;
+    border: none;
+    color: black;
+    padding: 35px;
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+
+    background-image: url("https://i.ya-webdesign.com/images/cartoon-wood-png-2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.form-control {
+  display: block;
+  width: 95%;
+  height: 1rem;
+  padding: 0.375rem 0.375rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+}
