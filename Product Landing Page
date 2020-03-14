@@ -1,0 +1,111 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<main>
+  <div id="page-wrappper">
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" src="https://pbs.twimg.com/profile_images/565101889352499201/U_Kcg2jX.jpeg" alt="Twinkle Cakes Logo" />
+      </div>
+      
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#how-its-baked">How its Baked</a></li>
+          <li><a class="nav-link" href="#menu">Catalogue</a></li>
+          <li><a class="nav-link" href="#contact">Contact Us</a></li>
+      </nav>      
+    </header>
+      
+    <div class="container"></div>
+      
+    <div class="container">
+      <section id="email-address">
+        <h2>Never miss discounts or deals!!</h2>
+        <form id="form"
+              action="https://www.freecodecamp.com/email-submit">
+          <input name="email" id="email" type="email" placeholder="Subsribe to our newfeed with your email" required />
+          <input id="submit" type="submit" value="Subscribe" class="btn" />
+        </form>
+      </section>
+      <section id="how-its-baked">
+        <h2>How we make our cakes</h2>
+        <iframe 
+          id="video"
+          width="560" height="315" 
+          src="https://www.youtube.com/embed/vl7OBBTv7KY" 
+          frameborder="0" 
+          allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></>
+        </iframe>
+      </section>
+      <section id="menu">
+        <div class="product" id="oreo">
+          <div class="level">OREO®COOKIES AND CREAMS CHEESECAKE</div>
+          <img class="img"
+     src="https://cheesecakey.com//image/cache/catalog/slicing/products/Cheesecake/Oreo-675x675-360x360.png"/>
+          <h2>$99.00</h2>
+          <ol>
+            <li>Our 10-inch Oreo® Cookies and Cream Cheesecake comes in 14 pre-cut slices. </li>
+            <li>A total weight of 2.27kg.</li>
+          </ol>
+          <button class="btn">Order</button>
+      </div>
+        <div class="product" id="chocolate">
+          <div class="level">SUPER CHOCOLATEY WITH NUTELLA CHEESECAKE</div>
+          <img class="img" src="https://cheesecakey.com//image/cache/catalog/slicing/products/Cheesecake/Godiva-Double-Chocolate-Cheesecake-360x360.jpg" />
+          <h2>$109.00</h2>
+          <ol>
+            <li>Our 10-inch Super Chocolatey with Nutella Cheesecake comes in 14 pre-cut slices.</li>
+            <li>A total weight of 2.27kg.</li>
+            </ol>
+          <button class="btn">Order</button>
+      </div>
+        <div class="product" id="mango">
+          <div class="level">MANGO KEY LIME CHEESECAKE</div>
+          <img class="img" src="https://cheesecakey.com//image/cache/catalog/slicing/products/Cheesecake/Mango%20Key%20Lime%20Cheesecake_Small-360x360.jpg" />
+          <h2>$86.00</h2>
+          <ol>
+            <li>Our 10-inch Mango Key Lime Cheesecake comes in 14 pre-cut slices.</li>
+            <li>A total weight of 2.27kg.</li>
+          </ol>
+          <button class="btn">Order</button>
+      </div>
+      </section>
+      <section id="information">
+        <ol>
+          <li>Thaw in the refrigerator at 2-5°C. </li>
+          <li>Allow 8-12 hours to thaw, keeping the product covered to prevent dryness.</li>
+          <li>Serve no later than 3-5 days after thawing.</li> 
+          <li>Store in refrigerator after thawing.</li>
+          </ol>
+        <br>
+      </section>
+      <section id="contact">
+        <h3>Twinkle Cakes</h3>
+        <p class="m0">
+          38 Ang Mo Kio Industrial Park 2,<br>
+          Lobby A, #02-214<br>
+          Singapore 569511<br>
+          <br>
+          Tel: 8866 6699 (Call & Whatsapp)<br>
+          E-mail: hello@twinklecakes.com
+        </p>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+        <span>Copyright 2020, Twinkle Cakes</span>
+      </footer>
+    </div>    
+  </div>
+</main>
