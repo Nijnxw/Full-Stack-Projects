@@ -1,0 +1,90 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+https://codepen.io/nijnxw/pen/rNVjWKY
+
+-->
+<main>
+  <h1 id="title">Favourite Dessert</h1>
+  <p id="description">What is your go to dessert after a meal or just as a treat?</p>
+  <form id="survey-form">
+    <div>
+      <label id="name-label" for="name">Name<br></label>
+      <input id="name" type="text" class="form-control" placeholder="Enter your name"required>
+    </div>
+    <div>
+      <label id="email-label" for="email">Email<br></label>
+      <input id="email" type="email" class="form-control" placeholder="Enter your email" required>
+    </div>
+    <div>
+      <label id="number-label" for="age">Age<br></label>
+      <input id="number" type="number" min="1" max="200" class="form-control" placeholder="Enter your age" required>
+    </div>
+    <div>
+      <p>Choose your favourite dessert:</p>
+      <select id="dropdown" name="occ" required>
+        <option disabled selected value>Select favourite dessert</option>
+        <option value="iceCream">Ice Cream</option>
+        <option value="cake">Cake</option>
+        <option value="cookies">Cookies</option>
+        <option value="brownies">Brownies</option>
+        <option value="pudding">Pudding</option>
+        <option value="doughnuts">Doughnuts</option>
+        <option value="others">Others</option>
+      </select>
+    </div>
+    <div>
+      <p>How many times do you eat your chosen dessert in a month?</p>
+      <label>
+        <input name="freq" value="seldom" type="radio" checked> less than 5 times<br>
+      </label>
+      <label>
+        <input name="freq" value="often" type="radio"> 5 to 10 times<br> </label>
+      <label>
+        <input name="freq" value="frequently" type="radio"> more than 10 times<br>
+      </label>
+    </div>
+    <div>
+      <p>Who do you usually eat with?
+        <span class="checkall">(Check all that apply)</span>
+      </p>
+      <label>
+        <input name="value" value="family" type="checkbox">
+        Family Members<br>
+      </label>
+      <label>
+        <input name="value" value="siblings" type="checkbox">
+        Siblings<br>
+      </label>
+      <label>
+        <input name="value" value="friends" type="checkbox">
+        Friends<br>
+      </label>
+      <label>
+        <input name="value" value="collegues" type="checkbox">
+        Collegues<br>
+      </label>
+      <label>
+        <input name="value" value="relatives" type="checkbox">
+        Relatives<br>
+      </label>
+      <label>
+        <input name="value" value="alone" type="checkbox">
+        Alone<br>
+      </label>
+    <div>
+      <p>Do you have other desserts to reccommend?</p>
+      <textarea id="reccommendations" name="recc" placeholder="Optional"></textarea>
+    </div>
+      <label for="img">
+   <button type="submit" class="buttonConfiguration" name="submit" id="submit">Submit</button>
+</label>
+  </form>
+</main>
